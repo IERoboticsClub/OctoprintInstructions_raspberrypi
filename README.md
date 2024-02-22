@@ -140,4 +140,29 @@ Now you can start printing.
 
 Tune_printer_model then drag the .gcode file or press upload file in Octoprint interface
 
+# USAGE:
+
+1. Enter:
+```
+http://achilles
+```
+to access in to the raspberry pi
+
+2. It will ask for a username and pasward, we have created a Guest account for everyone:
+- username: user
+- password: ieroboticslab
+
+3. Now you can drag the .gcode file you prepared in Cura and start printing.
+
+4. Advices:
+- slice in cura tuning the settings as best.
+- add glue on the plate of the printer before priting. It will keep the object stick on the printer plate.
+
+
+# !!Attention!!
+
+printing without monitoring is really dangerous. it is always adviced to check the printer in person and avoid leave it without supervision.
+
+MANTAIN THE PRINTER IN GOOD STATUS!! TAKE CARE, CLEAN AND DON'T SWITCH THEM OFF.
+
 
