@@ -157,6 +157,14 @@ to access in to the raspberry pi
 4. Advices:
 - slice in cura tuning the settings as best.
 - add glue on the plate of the printer before priting. It will keep the object stick on the printer plate.
+- TO CHECK YOUR PRINTER FROM HOME AND FROM MOBILE GO TO:
+```
+https://octoeverywhere.com
+https://octoeverywhere.com/dashboard
+```
+> email: suzan.awinat@ie.edu
+
+> password: ieroboticslab
 
 
 # !!Attention!!
