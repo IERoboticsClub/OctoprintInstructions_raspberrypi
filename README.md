@@ -1,4 +1,4 @@
-# Octoprint Instructions raspberry pi
+# Octoprint Instructions for Raspberry Pi
 Instructions to replicate and use the raspbarry pi with octoprint image to 3D print models remotely.
 
 Check Videos Demo and Images for more help.
@@ -6,9 +6,19 @@ Check Videos Demo and Images for more help.
 by [Gregorio Orlando](https://github.com/GRINGOLOCO7)
  <br>
 
+# Table of Contents
+
+1. [Introduction](#introduction)
+2. [Connect 2 Cameras](#connect-2-cameras)
+3. [Connect 2 3D Printers](#connect-2-3d-printers)
+4. [How to Do a Good Slice](#how-to-do-a-good-slice)
+5. [Usage & 3D Print Your Model](#usage--3d-print-your-model)
+6. [Plugins](#Pluggins)
+7. [Attention](#attention)
+
 # Introduction
 
-In this project we are making the 3D printers in the lab more clever.
+In this project, we are enhancing the functionality of the 3D printers in the lab.
 
 Using a **Raspberry pi**, we installed the **Octoprint** image in it and we are now able to controll 2 3D printers remotely. Moreover whe have 2 webcams for each printer, we cna
 <br>
@@ -96,7 +106,7 @@ Automaticly it will addres the second webcam to the next port avaible. (because 
 
 Plug in the printers with the USB cable to Raspberry pi.
 
-We can then add a printer profile trough settings in Octoprint.
+We can then add a printer profile through settings in OctoPrint.
 
 In the lab we have a Ultimaker2+ and a Witbox2.
 
@@ -115,6 +125,10 @@ Then connect to the printer.
 - resource page: https://support.ultimaker.com/s/article/1667337576725
 
 **Prepare & slice settings:**
+
+In Cura software you can tune the settings of the printer as you prefare.
+
+Keep in mind that in this fase you are plaing between precision of the result and time consumption to printe the entire model.
 - _Layer Height_: How thin each layer => quality => approx. 0.1/0.08 (very precise)
 - _Initial/Top Layer Height_: approx. 0.2 (need to be thick)
 
@@ -138,10 +152,17 @@ Now you can start printing.
 
 # Usage & 3D print your model
 
-Tune_printer_model then drag the .gcode file or press upload file in Octoprint interface
+Tune_printer_model then drag the .gcode file or press upload file in the OctoPrint interface.
 
 # USAGE:
+1. Design/Download your model (Online there are sites such as [GrabCad](https://grabcad.com/library/software/nx) to Download models, or you can download for free [Fusion360](https://www.autodesk.com/campaigns/education/fusion-360) to design your own models)
+1. Open [Cura](https://ultimaker.com/software/ultimaker-cura/) and on top left add the 3D printers we have in  the lab [CuraPrintersProfiles](OctoprintInstructions_raspberrypi\Images\CuraPrintersProfiles.png)
+1. Import your model in Cura to slice it (slice mean tune the settings as you prefare.)
+1. After slicing press _save to disk_. This will save in your computer the .gcode need for print it in Octoprint.
+1. Now connect to the Wi-Fi of the lab:
+> Name: IERobotics
 
+> Passward: IER0b0tics1ab
 1. Enter:
 ```
 http://achilles
@@ -152,12 +173,26 @@ to access in to the raspberry pi
 - username: user
 - password: ieroboticslab
 
-3. Now you can drag the .gcode file you prepared in Cura and start printing.
+3. Now you can drag the .gcode file you prepared in Cura and start printing. To do so, in the left part of the graphic interface you can see the files. You will just need to press the print icon. This will start heat the printer and when the target temperature is reached it will automaticaly start print.
 
 4. Advices:
-- slice in cura tuning the settings as best.
-- add glue on the plate of the printer before priting. It will keep the object stick on the printer plate.
-- TO CHECK YOUR PRINTER FROM HOME AND FROM MOBILE GO TO:
+- **If anything append just press pouse button on bottom right of interface.**
+- Slice in cura tuning the settings as best.
+- In Octoprint interface you can see many informations and take many actions... take a moment to play arround and understand how it works before printing.
+- Add glue on the plate of the printer before priting. It will keep the object stick on the printer plate.
+
+### Pluggins:
+[resurce_gude_where_to_find_the_best_pluggins](https://www.youtube.com/watch?v=HinYfH2TJiw)
+
+- _Multicam_: It allows us to add 2 webcams and switch form one to the other.
+- _UI customizer_: It allows to get rid of the orrible default GUI and design your own.
+- _Dashboard_: You can see many details about your printer.
+- _Cancel objects_: allows to delete a section of the printed object to avoid to print it if it brake. This allows to continue printing even if a section of the objest need to be discard, because the printer will avoid it.
+- _File manager_: You can easily manage/delete/etc.. the .gcode files
+- _Slicer thumbnails_: It shows what you are printing in a fancy way
+- _Print time genious_: Study how much your printer move and tell you a better and accurate estimation of how much time left to respect to the default calculator
+- _Octolapse_: It allows to take automatic timelapse of your printing.
+- _Octoeverywhere_: It allows to monitor and connect to the printer with mobile and pc.
 ```
 https://octoeverywhere.com
 https://octoeverywhere.com/dashboard
@@ -165,7 +200,6 @@ https://octoeverywhere.com/dashboard
 > email: suzan.awinat@ie.edu
 
 > password: ieroboticslab
-
 
 # !!Attention!!
 
