@@ -136,11 +136,12 @@ Keep in mind that in this fase you are plaing between precision of the result an
 - _Infill Speed_: can be a bit faster than speed (ex: 25 mm/s)
 - _Travel Speed_: for small & fragile things low (ex: 30 mm/s)
 
-- _Top Bottom_: value is a multiple of nozzle (ex: nozzle = 0.4 => Top = 0.8 or 1.2)
-
 - _Infill_: percentage of filling approx. 20%/10%
 
 - _Line width_: the lower, the most precise, 75% of nozzle size < x < 125% of nozzle size
+
+- _Top Bottom_: value is a multiple of nozzle (ex: nozzle = 0.4 => Top = 0.8 or 1.2)
+> Note: The Nozle is the tip from where the melted material exit... the tip of the printer. To find this size you can unscrew it with a spanner and read the number on it. Usually it is 0.4mm
 
 **Prepare .gcode:**
 
