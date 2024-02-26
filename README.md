@@ -13,8 +13,9 @@ by [Gregorio Orlando](https://github.com/GRINGOLOCO7)
 3. [Connect 2 3D Printers](#connect-2-3d-printers)
 4. [How to Do a Good Slice](#how-to-do-a-good-slice)
 5. [Usage & 3D Print Your Model](#usage--3d-print-your-model)
-6. [Plugins](#Pluggins)
-7. [Attention](#attention)
+6. [Plugins](#pluggins)
+7. [Printers Mantainence](#printer-mantainence)
+8. [Attention](#attention)
 
 # Introduction
 
@@ -203,10 +204,26 @@ https://octoeverywhere.com
 
 > when conected to octoeverywhere, the webcams won't be avaible, but you can type: `https://ultimaker.octoeverywhere.com/webcam/?action=stream` to see ultimaker webcam
 
+# Printer Mantainence
+It is a good practice to clean the printer before and after the use.
+To do so you can follow this steps:
+1. spray with alchol or any cleaning product on the printer plate and clean the glue/remining sign from previous prints.
+2. use the brass wire brush in the 3D printer kit to clean the nozle from residual material
+3. in the 3D printer kit you can also find a long needle that can be inserted in the nozle to check if some material is stuck inside.
+<br>
+
 # !!Attention!!
 
-printing without monitoring is really dangerous. it is always adviced to check the printer in person and avoid leave it without supervision.
+1. printing without monitoring is really dangerous. it is always adviced to check the printer in person and avoid leave it without supervision.
 
-MANTAIN THE PRINTER IN GOOD STATUS!! TAKE CARE, CLEAN AND DON'T SWITCH THEM OFF.
+2. MANTAIN THE PRINTER IN GOOD STATUS!! TAKE CARE, CLEAN AND DON'T SWITCH THEM OFF.
+
+3. The printer is not reliable. If you start printing monitor the object to check if everithing is working fine. Usually the object detach from the plate and start melting in the nozle.
+
+4. Make confidence with the Graphic Interface of octoprint before printing. Understand that the direction arrow works in oppisite way as you may expect.
+
+5. Identify the 'stop' and 'pause' buttons on bottom right of GUI.
+
+6. Do not start printing from home. Start the printing in school, so you can apply the glue on the plate before printing and monitorize in person the first stage of the print... the most delicate.
 
 
