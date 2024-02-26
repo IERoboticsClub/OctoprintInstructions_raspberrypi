@@ -201,7 +201,7 @@ https://octoeverywhere.com
 
 > password: ieroboticslab
 
-> when conected to octoprint, the webcams won't be avaible, but you can type: `https://ultimaker.octoeverywhere.com/webcam/?action=stream` to see ultimaker webcam
+> when conected to octoeverywhere, the webcams won't be avaible, but you can type: `https://ultimaker.octoeverywhere.com/webcam/?action=stream` to see ultimaker webcam
 
 # !!Attention!!
 
