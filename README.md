@@ -196,11 +196,12 @@ to access in to the raspberry pi
 - _Octoeverywhere_: It allows to monitor and connect to the printer with mobile and pc.
 ```
 https://octoeverywhere.com
-https://octoeverywhere.com/dashboard
 ```
 > email: suzan.awinat@ie.edu
 
 > password: ieroboticslab
+
+> when conected to octoprint, the webcams won't be avaible, but you can type: `https://ultimaker.octoeverywhere.com/webcam/?action=stream` to see ultimaker webcam
 
 # !!Attention!!
 
