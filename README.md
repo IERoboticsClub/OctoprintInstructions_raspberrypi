@@ -1,5 +1,5 @@
 # Octoprint Instructions for Raspberry Pi
-Instructions to replicate and use the raspbarry pi with octoprint image to 3D print models remotely.
+Instructions to replicate and use the raspberry pi with octoprint image to 3D print models remotely.
 
 Check Videos Demo and Images for more help.
 
@@ -161,21 +161,17 @@ Tune_printer_model then drag the .gcode file or press upload file in the OctoPri
 1. Open [Cura](https://ultimaker.com/software/ultimaker-cura/) and on top left add the 3D printers we have in  the lab [CuraPrintersProfiles](OctoprintInstructions_raspberrypi\Images\CuraPrintersProfiles.png)
 1. Import your model in Cura to slice it (slice mean tune the settings as you prefare.)
 1. After slicing press _save to disk_. This will save in your computer the .gcode need for print it in Octoprint.
-1. Now connect to the Wi-Fi of the lab:
-> Name: IERobotics
+1. Now connect to the lab's Wi-Fi
 
-> Passward: IER0b0tics1ab
 1. Enter:
 ```
 http://achilles
 ```
-> http://10.205.1.3
+> (http://10.205.1.3)
 
 to access in to the raspberry pi
 
-2. It will ask for a username and pasward, we have created a Guest account for everyone:
-- username: user
-- password: ieroboticslab
+2. It will ask for a username and pasword. Use the Guest account for everyone.
 
 3. Now you can drag the .gcode file you prepared in Cura and start printing. To do so, in the left part of the graphic interface you can see the files. You will just need to press the print icon. This will start heat the printer and when the target temperature is reached it will automaticaly start print.
 
@@ -196,13 +192,10 @@ to access in to the raspberry pi
 - _Slicer thumbnails_: It shows what you are printing in a fancy way
 - _Print time genious_: Study how much your printer move and tell you a better and accurate estimation of how much time left to respect to the default calculator
 - _Octolapse_: It allows to take automatic timelapse of your printing.
-- _Octoeverywhere_: It allows to monitor and connect to the printer with mobile and pc.
+- _Octoeverywhere_: It allows to monitor and connect to the printer with mobile and pc. Access with email and pw provided form lab assistent.
 ```
 https://octoeverywhere.com
 ```
-> email: gorlando.ieu2022@student.ie.edu
-
-> password: ieroboticslab
 
 > when conected to octoeverywhere, the webcams won't be avaible, but you can type: `https://ultimaker.octoeverywhere.com/webcam/?action=stream` to see ultimaker webcam
 
