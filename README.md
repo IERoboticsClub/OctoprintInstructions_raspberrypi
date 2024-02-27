@@ -169,6 +169,8 @@ Tune_printer_model then drag the .gcode file or press upload file in the OctoPri
 ```
 http://achilles
 ```
+> http://10.205.1.3
+
 to access in to the raspberry pi
 
 2. It will ask for a username and pasward, we have created a Guest account for everyone:
@@ -198,7 +200,7 @@ to access in to the raspberry pi
 ```
 https://octoeverywhere.com
 ```
-> email: suzan.awinat@ie.edu
+> email: gorlando.ieu2022@student.ie.edu
 
 > password: ieroboticslab
 
