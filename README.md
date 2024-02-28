@@ -6,13 +6,17 @@ Check Videos Demo and Images for more help.
 by [Gregorio Orlando](https://github.com/GRINGOLOCO7)
  <br>
 
+<div align="center">
+  <img src="Images\IntroImmage.png" alt="AddFirstCam" width="400" />
+</div>
+
 # Table of Contents
 
 1. [Introduction](#introduction)
 2. [Connect 2 Cameras](#connect-2-cameras)
 3. [Connect 2 3D Printers](#connect-2-3d-printers)
 4. [How to Do a Good Slice](#how-to-do-a-good-slice)
-5. [Usage & 3D Print Your Model](#usage--3d-print-your-model)
+5. [Usage](#usage)
 6. [Plugins](#pluggins)
 7. [Printers Mantainence](#printer-mantainence)
 8. [Attention](#attention)
@@ -150,13 +154,14 @@ Once your model is ready, you can import it in Cura, tune the settings as you pr
 You are now ready to drag the file in the web page with Octoprint running.
 On the left side you save the file in Octoprint, on the right side you save the file in the SD card inserted in the 3D printer (if any).
 Now you can start printing.
-<br>
-
-# Usage & 3D print your model
 
 Tune_printer_model then drag the .gcode file or press upload file in the OctoPrint interface.
 
-# USAGE:
+<br>
+
+
+
+# Usage:
 1. Design/Download your model (Online there are sites such as [GrabCad](https://grabcad.com/library/software/nx) to Download models, or you can download for free [Fusion360](https://www.autodesk.com/campaigns/education/fusion-360) to design your own models)
 1. Open [Cura](https://ultimaker.com/software/ultimaker-cura/) and on top left add the 3D printers we have in  the lab [CuraPrintersProfiles](OctoprintInstructions_raspberrypi\Images\CuraPrintersProfiles.png)
 1. Import your model in Cura to slice it (slice mean tune the settings as you prefare.)
@@ -181,7 +186,7 @@ to access in to the raspberry pi
 - In Octoprint interface you can see many informations and take many actions... take a moment to play arround and understand how it works before printing.
 - Add glue on the plate of the printer before priting. It will keep the object stick on the printer plate.
 
-### Pluggins:
+# Pluggins:
 [resurce_gude_where_to_find_the_best_pluggins](https://www.youtube.com/watch?v=HinYfH2TJiw)
 
 - _Multicam_: It allows us to add 2 webcams and switch form one to the other.
