@@ -187,7 +187,7 @@ to access in to the raspberry pi
 - Add glue on the plate of the printer before priting. It will keep the object stick on the printer plate.
 
 # Pluggins:
-[resurce_gude_where_to_find_the_best_pluggins](https://www.youtube.com/watch?v=HinYfH2TJiw)
+[resurce_gude_where_to_find_the_best_pluggins](https://all3dp.com/2/must-have-octoprint-plugins/)
 
 - _Multicam_: It allows us to add 2 webcams and switch form one to the other.
 - _UI customizer_: It allows to get rid of the orrible default GUI and design your own.
