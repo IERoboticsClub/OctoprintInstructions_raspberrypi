@@ -196,7 +196,21 @@ to access in to the raspberry pi
 - _File manager_: You can easily manage/delete/etc.. the .gcode files
 - _Slicer thumbnails_: It shows what you are printing in a fancy way
 - _Print time genious_: Study how much your printer move and tell you a better and accurate estimation of how much time left to respect to the default calculator
+
+
+
+- _Exclude region_: Exclude Region allows you to resume multi-part 3D printing jobs when one or more parts fail.
+- _Simple emergency stop_:  If your print goes awry, smash the button to stop printing immediately.
+- _Themefiy_: enables you to highlight frequently-used features, improve the overall aesthetic, and more!
+- _NavBar Temp_: All of your 3D printer’s temperature information will be available at a glance, so you can keep tabs on everything that’s going on.
+- _Floating NavBar_: Your NavBar will always be right there for you when you need it, whether to check temperatures or smash the emergency stop button.
+- _Preheat Button_:  It makes print setup easier by automatically heating the nozzle and bed to the temperature in the selected G-code file.
 - _Octolapse_: It allows to take automatic timelapse of your printing.
+
+- _obico_: It allows to monitor and connect to the printer with mobile and pc for remote. Access with email and pw provided form lab assistent.
+```
+http://obico.io
+```
 - _Octoeverywhere_: It allows to monitor and connect to the printer with mobile and pc. Access with email and pw provided form lab assistent.
 ```
 https://octoeverywhere.com
